@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "man": "./man.md",
-  "private": true,
+  "private": false,
   "scripts": {
     "preinstall": "npm install ../wiki_builder/",
     "start": "npm run clear-wiki && npm run empty-log && wiki-builder",
