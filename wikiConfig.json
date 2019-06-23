@@ -1,0 +1,10 @@
+{
+  "wikiDirPath": "wiki",
+  "projectDirPath": "./",
+  "ignoreMdFiles": ["man.md"],
+  "ignoreMdTitles": ["tester", "testing"],
+  "ignoreDirs": ["test", "src/test"],
+  "statsEnabled": true,
+  "useGitignore": true,
+  "useLogger": false
+}

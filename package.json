@@ -1,0 +1,22 @@
+{
+  "name": "wiki_builder_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "man": "./man.md",
+  "private": true,
+  "scripts": {
+    "preinstall": "npm install ../wiki_builder/",
+    "start": "npm run clear-wiki && npm run empty-log && wiki-builder",
+    "empty-log": "truncate -s 0 log.txt",
+    "clear-wiki": "rm -rf wiki",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Keller",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "fs-extra": "^8.0.1",
+    "wiki-builder": "file:../wiki_builder"
+  }
+}
