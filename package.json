@@ -1,12 +1,11 @@
 {
   "name": "wiki_builder_test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "man": "./man.md",
   "private": false,
   "scripts": {
-    "preinstall": "npm install ../wiki_builder/",
     "start": "npm run clear-wiki && npm run empty-log && wiki-builder",
     "empty-log": "truncate -s 0 log.txt",
     "clear-wiki": "rm -rf wiki",
@@ -17,6 +16,6 @@
   "dependencies": {
     "bluebird": "^3.5.5",
     "fs-extra": "^8.0.1",
-    "wiki-builder": "file:../wiki_builder"
+    "wiki-builder": "latest"
   }
 }
