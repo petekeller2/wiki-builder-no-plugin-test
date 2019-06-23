@@ -1,7 +1,7 @@
 {
   "wikiDirPath": "wiki",
   "projectDirPath": "./",
-  "ignoreMdFiles": ["man.md"],
+  "ignoreMdFiles": ["main.md"],
   "ignoreMdTitles": ["tester", "testing"],
   "ignoreDirs": ["test", "src/test"],
   "statsEnabled": true,
