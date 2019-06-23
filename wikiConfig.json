@@ -5,6 +5,6 @@
   "ignoreMdTitles": ["tester", "testing"],
   "ignoreDirs": ["test", "src/test"],
   "statsEnabled": true,
-  "useGitignore": true,
+  "useGitignore": false,
   "useLogger": false
 }
