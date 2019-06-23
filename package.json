@@ -1,6 +1,6 @@
 {
   "name": "wiki_builder_test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "private": false,
@@ -10,7 +10,7 @@
     "clear-wiki": "rm -rf wiki",
     "local-setup": "npm uninstall wiki-builder --save && node local.js && npm run preinstall",
     "npm-setup": "node npm.js && npm uninstall wiki-builder --save && npm install wiki-builder -save && npm install",
-    "pre-commit": "npm run npm-setup && npm run -s latest-version-text && npm run -s sugestion-text",
+    "pre-commit": "npm run empty-log && npm run npm-setup && npm run -s latest-version-text && npm run -s sugestion-text",
     "latest-version-text": "echo 'The latest version of this package is: ' && npm show wiki_builder_test version",
     "sugestion-text": "echo '\nPlease check the version number in the package.json.\n'"
   },
